@@ -14,23 +14,23 @@ This project implements an Anomaly-Based Intrusion Detection System (AIDS) using
 
 ## 📁 Project Structure
 
-intrusion-detect/
-│
-├── pycache/ # Compiled Python files
-├── logs/ # Logs directory
-│ └── anomalies.log # Log of detected anomalies
-│
-├── dashboard.py # Visualization/dashboard logic
-├── detector.py # Anomaly detection logic
-├── main.py # Entry point to run the system
-├── train_model.py # Model training script
-├── utils.py # Utility functions
-├── new_user_data.csv # New data to check for anomalies
-├── user_behavior.csv # Historical normal user behavior data
-├── user_model.joblib # Trained machine learning model
-├── requirements.txt # Python dependencies
-├── run.txt # Run instructions or notes
-└── README.md # Project documentation
+intrusion-detect/<br>
+├── pycache/ &nbsp;&nbsp;&nbsp;&nbsp;# Compiled Python files<br>
+├── logs/ &nbsp;&nbsp;&nbsp;&nbsp;# Logs directory<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;└── anomalies.log &nbsp;&nbsp;&nbsp;&nbsp;# Log of detected anomalies<br>
+<br>
+├── dashboard.py &nbsp;&nbsp;&nbsp;&nbsp;# Visualization/dashboard logic<br>
+├── detector.py &nbsp;&nbsp;&nbsp;&nbsp;# Anomaly detection logic<br>
+├── main.py &nbsp;&nbsp;&nbsp;&nbsp;# Entry point to run the system<br>
+├── train_model.py &nbsp;&nbsp;&nbsp;&nbsp;# Model training script<br>
+├── utils.py &nbsp;&nbsp;&nbsp;&nbsp;# Utility functions<br>
+├── new_user_data.csv &nbsp;&nbsp;&nbsp;&nbsp;# New data to check for anomalies<br>
+├── user_behavior.csv &nbsp;&nbsp;&nbsp;&nbsp;# Historical normal user behavior data<br>
+├── user_model.joblib &nbsp;&nbsp;&nbsp;&nbsp;# Trained machine learning model<br>
+├── requirements.txt &nbsp;&nbsp;&nbsp;&nbsp;# Python dependencies<br>
+├── run.txt &nbsp;&nbsp;&nbsp;&nbsp;# Run instructions or notes<br>
+└── README.md &nbsp;&nbsp;&nbsp;&nbsp;# Project documentation<br>
+
 
 ---
 
